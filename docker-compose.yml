@@ -1,0 +1,16 @@
+services:
+  ondesk:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ondesk-offline
+    container_name: ondesk-app
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    # Optional: Resource limits
+    # deploy:
+    #   resources:
+    #     limits:
+    #       cpus: '0.5'
+    #       memory: 512M

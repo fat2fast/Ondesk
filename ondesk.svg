@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <style>
+      .box-fill { fill: #f1f5f9; }
+      .box-stroke { fill: none; stroke: #475569; stroke-width: 4; stroke-linejoin: round; }
+      .dev-accent { fill: none; stroke: #6366f1; stroke-width: 4; stroke-linecap: round; }
+      .offline-indicator { fill: #ef4444; }
+    </style>
+  </defs>
+
+  <path class="box-fill box-stroke" d="M8,16 L32,4 L56,16 L56,48 L32,60 L8,48 Z"/>
+  <polyline class="box-stroke" points="8 16 32 28 56 16"/>
+  <line class="box-stroke" x1="32" y1="60" x2="32" y2="28"/>
+
+  <polyline class="dev-accent" points="20 38 14 44 20 50"/>
+  <polyline class="dev-accent" points="44 38 50 44 44 50"/>
+  <line class="dev-accent" x1="34" y1="36" x2="30" y2="52"/>
+
+  <circle class="offline-indicator" cx="32" cy="16" r="3"/>
+</svg>

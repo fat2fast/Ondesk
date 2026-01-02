@@ -1,0 +1,5 @@
+{
+  "name": "OnDesk",
+  "description": "A privacy-focused, offline-first web tools hub for developers. Features Crontab explanation, Nginx beautification, JSON editing, and Text comparison without sending data to any server.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,9 @@
+services:
+  app:
+    hostname: '${SERVICE_NAME}'
+    image: '${IMAGE_NAME}'
+    env_file:
+      - .env
+    ports:
+      - "${PORT}:80"
+    restart: always
